@@ -24,3 +24,10 @@ console.log(v); //no error
 console.log(Math.round(v)); //returns NaN (No error)
 
 
+//Working with TypeScript Arrays
+
+let names: string[] = [];
+names.push("a"); // No error 
+console.log(names);
+
+
