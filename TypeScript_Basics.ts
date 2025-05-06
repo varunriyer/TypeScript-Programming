@@ -223,5 +223,5 @@
         model: CarModel,
     };
     console.log(car);
-
+    console.log(car.model);
 }
