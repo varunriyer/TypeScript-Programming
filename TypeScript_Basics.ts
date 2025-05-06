@@ -125,3 +125,10 @@
     car.mileage = 2000;
     console.log(car);
 }
+{
+    //Using Index Signatures 
+    let obj: { [index: string]: number } = {};
+    obj.Jack = 25;
+
+    console.log(obj);
+}
