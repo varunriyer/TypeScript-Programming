@@ -39,3 +39,10 @@
     // names.push(4); --> This gives an error as you can only push type string
 }
 
+{
+
+    //Using readonly to prevent arrays from being changed
+    let names: readonly string[] = ["Joseph"];
+    // names.push("Dillon"); --> This will gove an error as you cannot modify readonly array
+    console.log(names);
+}
