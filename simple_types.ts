@@ -65,6 +65,7 @@
     let myTuple: [number, boolean, string];
     myTuple = [5, false, "Yooo"];
     console.log(myTuple);
+    // myTuple = [true, "Noooo", 7]; --> This gives error as order is changed
 
 
 }
