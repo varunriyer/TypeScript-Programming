@@ -89,3 +89,15 @@
     console.log(`x + y is = ${x + y}`);
 
 }
+
+{
+    //TypeScript Object Types
+    let car: { type: string, model: string, year: number } = {
+        type: "Toyota",
+        model: "Corrola",
+        year: 2009
+    };
+
+    console.log(car);
+    console.log(car.model);
+}
