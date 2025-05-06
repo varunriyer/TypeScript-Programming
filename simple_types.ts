@@ -59,3 +59,12 @@
     console.log(head, tail);
 
 }
+
+{
+    //Working with Tuples in TS --> Tuples let each element in the array to be a known type value
+    let myTuple: [number, boolean, string];
+    myTuple = [5, false, "Yooo"];
+    console.log(myTuple);
+
+
+}
