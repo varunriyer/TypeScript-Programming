@@ -264,3 +264,8 @@
     printStatusCode("404"); // Both string and number is accepted 
 
 }
+
+// Remember that when you use Union it can cause errors if you use properties specific only to one type
+// For example, if you use string | number , if you try to use .toUpperCase() it will give an error
+// Bcoz it is not a function which is supported by number and is only supported by string, resulting in an error
+
