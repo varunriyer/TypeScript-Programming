@@ -225,3 +225,15 @@
     console.log(car);
     console.log(car.model);
 }
+{
+    //Interfaces --> Similar to aliases but only work with objects 
+    interface Rectangle {
+        height: number,
+        width: number,
+    }
+    let rectangle: Rectangle = {
+        height: 20,
+        width: 10,
+    };
+    console.log(rectangle);
+}
