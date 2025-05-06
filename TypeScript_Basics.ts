@@ -170,3 +170,17 @@
     console.log(BadRequest_ID); // 400
     console.log(StatusCodes.Accepted); // 202
 }
+{
+    // Using String Enums --> More common 
+    enum Directions {
+        North = "North",
+        East = "East",
+        South = "South",
+        West = "West"
+
+    }
+    let currentDirection = Directions.East;
+    console.log(currentDirection);
+    console.log(Directions.West);
+
+}
