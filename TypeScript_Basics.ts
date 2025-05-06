@@ -184,3 +184,22 @@
     console.log(Directions.West);
 
 }
+{
+    // Testing Mixing enums
+    enum Directions {
+        North = "North",
+        East = "East",
+        South = "South",
+        West = 3,
+        SouthWest,
+        SouthEast = "SW",
+        NorthWest = 5,
+        NorthEast
+
+    }
+    let currentDirection = Directions.East;
+    console.log(currentDirection);
+    console.log(Directions.West); // 3 
+    console.log(Directions.SouthWest); // 4
+    console.log(Directions.NorthEast); // 6
+}
