@@ -30,4 +30,4 @@ let names: string[] = [];
 names.push("a"); // No error 
 console.log(names);
 
-
+// names.push(4); --> This gives an error as you can only push type string
