@@ -237,3 +237,20 @@
     };
     console.log(rectangle);
 }
+{
+    // You can also extend Interfaces 
+    interface Rectangle {
+        height: number,
+        width: number,
+    };
+    interface ColouredRectangle extends Rectangle {
+        colour: string,
+    };
+    let myRectangle: ColouredRectangle = {
+        height: 30,
+        width: 15,
+        colour: "Blue",
+    };
+
+    console.log(myRectangle);
+}
