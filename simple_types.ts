@@ -46,3 +46,9 @@
     // names.push("Dillon"); --> This will gove an error as you cannot modify readonly array
     console.log(names);
 }
+{
+    //Type Inference by TypeScript for arrays if it has values
+    let numbers = [1, 2, 3]; //TS can infer that this is type - number[]
+    numbers.push(4); // Hence this doesn't give any error
+
+}
