@@ -254,3 +254,13 @@
 
     console.log(myRectangle);
 }
+
+{
+    //Using Union '|' in TS --> to store value which can have more than one type 
+    function printStatusCode(code: string | number) {
+        console.log(`My status code is ${code}`);
+    }
+    printStatusCode(404);
+    printStatusCode("404"); // Both string and number is accepted 
+
+}
