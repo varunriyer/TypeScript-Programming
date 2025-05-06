@@ -81,3 +81,9 @@
     console.log(myTuple);
     // myTuple.push("Don't even think about it"); --> This gives an error as it is readonly 
 }
+{
+    //Using Named Tuples to provide more context for what our index values represent
+    let graph: [x: number, y: number] = [55.3, 22.2];
+    console.log(graph);
+
+}
