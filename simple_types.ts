@@ -75,3 +75,9 @@
     myTuple.push("I can add something?"); //Tuples are usually strongly defined, so it is better to keep it readonly
     console.log(myTuple);
 }
+{
+    //Using readonly with tuples to avoid errors
+    let myTuple: readonly [number, boolean, string] = [5, false, "Check123"];
+    console.log(myTuple);
+    // myTuple.push("Don't even think about it"); --> This gives an error as it is readonly 
+}
