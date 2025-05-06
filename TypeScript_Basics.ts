@@ -147,7 +147,7 @@
 }
 
 {
-    // You can also initialize Numeric Enums to set the value of the first numeric enumn 
+    // You can also initialize Numeric Enums to set the value of the first numeric enum and it will auto increment from there 
     enum Directions {
         North = 1,
         East,
@@ -157,4 +157,16 @@
     let currentDirection = Directions.North;
     console.log(currentDirection); // 1
     console.log(Directions.West); // 4
+}
+{
+    // You can also full initialize Numeric Enums to set values for each enum
+    enum StatusCodes {
+        NotFound = 404,
+        Success = 200,
+        Accepted = 202,
+        BadRequest = 400,
+    }
+    let BadRequest_ID = StatusCodes.BadRequest;
+    console.log(BadRequest_ID); // 400
+    console.log(StatusCodes.Accepted); // 202
 }
