@@ -85,5 +85,7 @@
     //Using Named Tuples to provide more context for what our index values represent
     let graph: [x: number, y: number] = [55.3, 22.2];
     console.log(graph);
+    let [x, y] = graph;
+    console.log(`x + y is = ${x + y}`);
 
 }
