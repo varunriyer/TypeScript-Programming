@@ -101,3 +101,27 @@
     console.log(car);
     console.log(car.model);
 }
+{
+    //TS can also infer the types of properties based on their values
+    let car = {
+        type: "Toyota",
+    };
+    car.type = "Honda"; // TS accepts as it is a string
+    // car.type = 77; --> This gives an error as it is not string
+}
+{
+    //Using objects without an optional properties 
+    /* let car: { type: string, mileage: number } = {
+        type: "Toyota"
+    };                --> This gives an error as we have to define mileage 
+    car.mileage = 2000; */
+
+}
+{
+    //Using objects with optional properties
+    let car: { type: string, mileage?: number } = { //--> Here using ?. we can make the property optional 
+        type: "Toyota",
+    };
+    car.mileage = 2000;
+    console.log(car);
+}
