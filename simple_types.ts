@@ -9,3 +9,18 @@ const json = JSON.parse("55");
 // Most expect json to be an object, but it can be a string or a number like this example
 console.log(typeof json);
 
+// Using any to disable type checking 
+
+//Example without any 
+let u = true;
+// u = "String" --> This will give error without any 
+// console.log(Math.round(u)); --> This will also give error 
+
+//Using any to disable type checking
+
+let v: any = true;
+v = "string";
+console.log(v); //no error
+console.log(Math.round(v)); //returns NaN (No error)
+
+
