@@ -129,6 +129,6 @@
     //Using Index Signatures 
     let obj: { [index: string]: number } = {};
     obj.Jack = 25;
-
+    // obj.Mark = "Fifty"; --> This gives an error as it is needs to be a number
     console.log(obj);
 }
