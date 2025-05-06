@@ -145,3 +145,16 @@
     console.log(currentDirection); // 0
     console.log(Directions.South); // 2
 }
+
+{
+    // You can also initialize Numeric Enums to set the value of the first numeric enumn 
+    enum Directions {
+        North = 1,
+        East,
+        South,
+        West,
+    };
+    let currentDirection = Directions.North;
+    console.log(currentDirection); // 1
+    console.log(Directions.West); // 4
+}
