@@ -54,4 +54,8 @@
 
     console.log(numbers);
 
+    let head: number = numbers[0];
+    let tail = numbers[numbers.length - 1];
+    console.log(head, tail);
+
 }
