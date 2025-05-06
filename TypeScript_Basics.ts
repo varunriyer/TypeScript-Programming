@@ -203,3 +203,25 @@
     console.log(Directions.SouthWest); // 4
     console.log(Directions.NorthEast); // 6
 }
+{
+    // Using type alias 
+    type CarYear = number;
+    type CarType = string;
+    type CarModel = string;
+    type Car = {
+        year: CarYear,
+        type: CarType,
+        model: CarModel,
+    };
+    let CarYear: CarYear = 2001;
+    let CarType: CarType = "Toyota";
+    let CarModel = "Corolla";
+
+    let car: Car = {
+        year: CarYear,
+        type: CarType,
+        model: CarModel,
+    };
+    console.log(car);
+
+}
