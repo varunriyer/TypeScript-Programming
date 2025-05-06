@@ -132,3 +132,16 @@
     // obj.Mark = "Fifty"; --> This gives an error as it is needs to be a number
     console.log(obj);
 }
+{
+    // Enums --> Special class that represents a group of consonants
+    // By default enums will initialize the first value to 0 and add 1 to each additional value 
+    enum Directions {
+        North,
+        East,
+        South,
+        West
+    }
+    let currentDirection = Directions.North
+    console.log(currentDirection); // 0
+    console.log(Directions.South); // 2
+}
