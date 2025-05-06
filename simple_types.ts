@@ -67,6 +67,11 @@
     console.log(myTuple);
     // myTuple = [true, "Noooo", 7]; --> This gives error as order is changed
     // myTuple = [9, true, "Soooo", 3]; --> This gives error as tuple can only accept 3 elements
-
-
+}
+{
+    //Using Tuples without using Readonly
+    let myTuple: [number, boolean, string];
+    myTuple = [5, true, "hello"];
+    myTuple.push("I can add something?"); //Tuples are usually strongly defined, so it is better to keep it readonly
+    console.log(myTuple);
 }
