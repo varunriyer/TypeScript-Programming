@@ -300,3 +300,12 @@
     }
     console.log(multiply(3, 4));
 }
+
+{
+    //Optional Parameters 
+    function add(a: number, b: number, c?: number) {
+        return a + b + (c || 0);
+    }
+    console.log(add(2, 3)); //5
+    console.log(add(2, 3, 4)); //9
+}
