@@ -284,3 +284,11 @@
     }
     console.log(myAge());
 }
+
+{
+    // You can use the void type to indicate a function doesn't return any value 
+    function printHello(): void {
+        console.log("Hello");
+    }
+    printHello();
+}
