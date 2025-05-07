@@ -292,3 +292,11 @@
     }
     printHello();
 }
+
+{
+    //Functions with Parameters in TS
+    function multiply(a: number, b: number) { // if you don't specify by default it takes it as any 
+        return a * b;
+    }
+    console.log(multiply(3, 4));
+}
