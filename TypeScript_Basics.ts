@@ -272,7 +272,14 @@
 {
     // In TS, we can specify the type of value returned by the function 
     function getTime(): number {
-        return new Date().getTime();
+        return new Date().getDay(); // gets the day of the week
     }
     console.log(getTime());
+}
+
+{
+    function myAge(): number {
+        return 22;
+    }
+    console.log(myAge());
 }
