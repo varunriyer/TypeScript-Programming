@@ -280,6 +280,7 @@
 {
     function myAge(): number {
         return 22;
+        // return "twenty two"; --> This would give an error as only number is accepted
     }
     console.log(myAge());
 }
