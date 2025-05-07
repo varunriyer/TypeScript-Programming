@@ -309,3 +309,12 @@
     console.log(add(2, 3)); //5
     console.log(add(2, 3, 4)); //9
 }
+{
+    //Default Parameters 
+    function pow(value: number, exponent: number = 10) {
+        return value ** exponent;
+    }
+    console.log(pow(2));
+    console.log(pow(3, 4));
+
+}
