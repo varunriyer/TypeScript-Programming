@@ -325,3 +325,9 @@
     }
     console.log(divide({ dividend: 10, divisor: 2 }));
 }
+{
+    function greet({ greeting, name }: { greeting: string, name: string }) {
+        return `${greeting + " " + name + "!!"}`;
+    }
+    console.log(greet({ greeting: "Hello", name: "Varun" }));
+}
